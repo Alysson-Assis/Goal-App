@@ -42,7 +42,7 @@ export default function App() {
     <View style={styles.container}>
       <Button
         title="Adicionar Meta"
-        color="#00a7fb"
+        color="#1800a3"
         onPress={startAddGoalHandler} // abre o modal ao clicar
       />
 
@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 50,
     paddingHorizontal: 16,
+    backgroundColor: "#93D6F6"
   },
 
   goalsContainer: {
